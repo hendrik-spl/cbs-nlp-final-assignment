@@ -1,6 +1,12 @@
-# cbs-nlp-final-assignment
+# Natural Language Processing | Final Exam
 
-Follow these steps to properly set up the repository:
-* Create a virtual environment, activate it, and run `pip3 install -r requirements.txt`
+This project aims at developing a proof-of-concept NLP application based on Spotify reviews data obtained from [Kaggle](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022/data).
+
+The src folders contain the necessary jupyter notebooks which contain the code to execute the analysis. This repository should be read in conjunction with the report.
+
+Please follow these steps to properly set up the repository:
+* Create a virtual environment, activate it, and run install the dependencies 
+```bash
+pip3 install -r requirements.txt
+```
 * Duplicate `template.env`, rename to `.env` and add private OpenAI API key. Do not change the name of the environment variable.
-* Download the spotify_reviews.csv file from https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022/data and save it in the data folder.
