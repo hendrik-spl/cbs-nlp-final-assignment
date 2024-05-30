@@ -10,3 +10,4 @@ Please follow these steps to properly set up the repository:
 pip3 install -r requirements.txt
 ```
 * Duplicate `template.env`, rename to `.env` and add private OpenAI API key. Do not change the name of the environment variable.
+* If not available yet, add a folder called `data` to the base repository and download the `spotify_reviews.csv` file in there.
